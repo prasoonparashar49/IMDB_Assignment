@@ -43,6 +43,8 @@ First create movie before browsing or editing it. Link for creating movie is _/M
 ## Important Points
 1.In Movie Creation page and Edit page, Ensure that you are selecting actors. I have not covered the case where user is not selecting any actor. It may lead to exception
 
-2.Make sure that you are not uploading large image. There are some images in the Image folder that you can use to test. copy few images to some location and delete the remaining images.
+2.Make sure that you are not uploading large image. There are some images in the __Image__ folder that you can use to test. copy few images to some location and delete the remaining images except __cat.jpeg__ in __Image__ folder. It is used during Database initialization
 
 3.I am using DateTime as the data type for the Date input type. A valid literal for date is _1/1/0001 12:00:00 AM_ 
+
+4.
