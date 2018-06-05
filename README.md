@@ -16,7 +16,7 @@ In __Web.Config__, change connection string to the database that you want
 
 The app _Drop And Create database_ everytime you exectue it. So, make sure that you closes the connection to the database before executing the app. Otherwise, it may throw exception when you run app or try to create movie.
 
-First create movie before browsing or editing it
+First create movie before browsing or editing it. Link for creating movie is _/Movie/CreateMovie_
 
 
 
