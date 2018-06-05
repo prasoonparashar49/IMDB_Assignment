@@ -180,13 +180,16 @@ namespace IMDB_WebApp.Controllers
                         }
                     }
                     //code to edit image
-                    string fileName = Path.GetFileNameWithoutExtension(viewModel.ImageFile.FileName);
-                    string extension = Path.GetExtension(viewModel.ImageFile.FileName);
-                    fileName = fileName + DateTime.Now.ToString("yymmssfff") + extension;//to avoid duplicacy in file name
-                    viewModel.ImagePath = "~/Images/" + fileName;
-                    fileName = Path.Combine(Server.MapPath("~/Images/"), fileName);
-                    viewModel.ImageFile.SaveAs(fileName);
-                    movie.Photo = viewModel.ImagePath;
+                    if(viewModel.ImageFile != null)
+                    {
+                        string fileName = Path.GetFileNameWithoutExtension(viewModel.ImageFile.FileName);
+                        string extension = Path.GetExtension(viewModel.ImageFile.FileName);
+                        fileName = fileName + DateTime.Now.ToString("yymmssfff") + extension;//to avoid duplicacy in file name
+                        viewModel.ImagePath = "~/Images/" + fileName;
+                        fileName = Path.Combine(Server.MapPath("~/Images/"), fileName);
+                        viewModel.ImageFile.SaveAs(fileName);
+                        movie.Photo = viewModel.ImagePath;
+                    }
                     db.SaveChanges();
                 }
                 return RedirectToAction("Index");
