@@ -21,23 +21,24 @@ First create movie before browsing or editing it
 
 
 ## INSTRUCTIONS TO EXECUTE THE APP
+
 1. zip the file from the github
 
 2. Download the zip file
 
-3.__IMDB_Assignment__ is the parent folder. __IMDB_WebApp__ contains the web app. __.sln__ file is in parent folder. Open __.sln__file using Visual studio. It should work
+3.__IMDB_Assignment__ is the parent folder. __IMDB_WebApp__ contains the web app. __.sln__ file is in parent folder. Open __.sln__ file using Visual studio. It should work
 
 
 ## URL
-1.url for creating movie
+1.url for creating movie  __ /Movie/CreateMovie __
 
-2.url for listing movies
+2.url for listing movies  __ /Movie/Index __
 
-3.url for editing movie
+3.url for editing movie   __ /Movie/EditMovie/id __
 
-4.url for creating actor
+4.url for creating actor  __ /Actors/Create __
 
-5.url for creating producer
+5.url for creating producer  __ /Producers/Create __
 
 ## Important Points
 1.In Movie Creation page and Edit page, Ensure that you are selecting actors. I have not covered the case where user is not selecting any actor. It will lead to exception
