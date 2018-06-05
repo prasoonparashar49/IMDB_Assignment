@@ -30,17 +30,19 @@ First create movie before browsing or editing it
 
 
 ## URL
-1.url for creating movie  __ /Movie/CreateMovie __
+1.url for creating movie  __/Movie/CreateMovie__
 
-2.url for listing movies  __ /Movie/Index __
+2.url for listing movies  __/Movie/Index__
 
-3.url for editing movie   __ /Movie/EditMovie/id __
+3.url for editing movie   __/Movie/EditMovie/id__
 
-4.url for creating actor  __ /Actors/Create __
+4.url for creating actor  __/Actors/Create__
 
-5.url for creating producer  __ /Producers/Create __
+5.url for creating producer  __/Producers/Create__
 
 ## Important Points
-1.In Movie Creation page and Edit page, Ensure that you are selecting actors. I have not covered the case where user is not selecting any actor. It will lead to exception
+1.In Movie Creation page and Edit page, Ensure that you are selecting actors. I have not covered the case where user is not selecting any actor. It may lead to exception
 
 2.Make sure that you are not uploading large image. There are some images in the Image folder that you can use to test. copy few images to some location and delete the remaining images.
+
+3.I am using DateTime as the data type for the Date input type. A valid literal for date is _1/1/0001 12:00:00 AM_ 
