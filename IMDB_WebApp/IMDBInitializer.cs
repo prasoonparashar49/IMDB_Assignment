@@ -21,6 +21,19 @@ namespace IMDB_WebApp
             context.Actors.Add(salman);
             context.Producers.Add(anurag);
             context.Producers.Add(rohan);
+            Movie m1 = new Models.Movie
+            {
+                Name = "MI1",
+                ProducerId = 1,
+                Id = 1,
+                Bio = "Indian Version of MI",
+                Photo=@"\Images\cat.jpeg",
+                ReleaseDate = DateTime.Parse("19:00:00"),
+                Actors = new List<Actor>()
+            };
+            m1.Actors.Add(akshay);
+            m1.Actors.Add(salman);
+            context.Movies.Add(m1);
         }
     }
 }

@@ -259,6 +259,5 @@ C:\Users\Sachin Gautam\Desktop\IMDB_Assignment\IMDB_Assignment\IMDB_WebApp\bin\M
 C:\Users\Sachin Gautam\Desktop\IMDB_Assignment\IMDB_Assignment\IMDB_WebApp\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Sachin Gautam\Desktop\IMDB_Assignment\IMDB_Assignment\IMDB_WebApp\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Sachin Gautam\Desktop\IMDB_Assignment\IMDB_Assignment\IMDB_WebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Sachin Gautam\Desktop\IMDB_Assignment\IMDB_Assignment\IMDB_WebApp\obj\Debug\IMDB_WebApp.csprojResolveAssemblyReference.cache
 C:\Users\Sachin Gautam\Desktop\IMDB_Assignment\IMDB_Assignment\IMDB_WebApp\obj\Debug\IMDB_WebApp.dll
 C:\Users\Sachin Gautam\Desktop\IMDB_Assignment\IMDB_Assignment\IMDB_WebApp\obj\Debug\IMDB_WebApp.pdb
